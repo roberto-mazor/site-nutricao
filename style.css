@@ -1,13 +1,178 @@
 
-  
-body{
-background-image: url(/image/header-image.jpeg);
-background-repeat: no-repeat;
-background-position: right top;
-background-attachment: fixed;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box ;
+    font-family: "Poppins", sans-serif;
 }
 
-.img-fluid{
-    position: relative;
-    z-index: 1;
+html {
+    height: 250vh;
+    background-color: #fff;
+}
+
+
+.container {
+    max-width: 1280px;
+    margin: auto;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 25%;
+
+}
+
+
+
+header {
+    font-size: 20px;
+    width: 100%;
+    padding: 20px 1%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    transition: .5s;
+}
+
+header.roll{
+    background-color: #fff;
+    padding: 20px 4%;
+}
+
+
+
+header.roll a{
+    color: green;
+}
+
+header.roll i{
+    color: green;
+}
+
+header i {
+    color: black;
+    font-size: 30px;
+}
+
+header ul {
+    list-style-type: none;
+}
+
+header ul li{
+    display: inline-block;
+    margin: 0 40px;
+}
+
+header ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+
+
+.fa-solid{
+    color: #fff;
+    font-size: 40px;
+}
+
+.banner{
+    height: 100vh;
+    background-image: url(image/banner.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box ;
+
+}
+
+/*
+h1{ 
+    font-weight: 800;
+    padding-top: 300px;
+    padding-left: 17%;
+    color: rgb(39, 39, 39);
+    
+    
+    
+}*/
+
+/*
+.text-banner {
+    padding-left: 17%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-size: 20px;
+}*/
+
+
+
+.btn-agendar {
+
+    
+    background-color: #4CAF50; /* Cor do fundo */
+    color: white; /* Cor do texto */
+    padding: 12px 24px; /* Espaçamento interno ajustado */
+    font-size: 18px;
+    font-weight: 500;
+    border: none;
+    border-radius: 10px; /* Bordas arredondadas de 10px */
+    cursor: pointer;
+    transition: background-color 0.3s;
+    white-space: nowrap; /* Evita quebra de linha */
+    display: inline-block; /* Permite ajuste automático ao texto */
+    font-weight: 500;
+    }
+
+    .btn-agendar:hover {
+        background-color: #45a049; /* Cor ao passar o mouse */
+    }
+.test{
+    
+    border: #fff;
+    align-items:end;
+    padding-left: 17%;
+    padding-top: 250px;
+    
+    max-height: 900px;
+    flex-direction: column; /*direciona alinhamento em coluna*/
+    align-items: start;
+    
+}
+
+.text-banner{
+    max-height: 200px;
+    max-width: 600px;
+    font-size: 23px;
+    font-weight: 450;
+}
+
+.test a{
+    /*padding-left: 2%;*/
+   
+
+}
+
+/* Final Formatação banner*/
+
+.cor1
+{
+    flex-wrap: nowrap;
+}
+
+.cor2{
+    padding-top: 50px;
+    
+    
+}
+
+.cor3{
+    padding-top: 180px;
+    padding-left: 7%;
 }
