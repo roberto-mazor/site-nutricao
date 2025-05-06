@@ -175,8 +175,10 @@ header ul li a {
 .carde-service{
     padding-top: 100px;
     padding-bottom: 50px;
+    background-color: #e5ab7e;
 }
 
 .card{
-    padding-bottom: 50px;
+    margin-bottom: 100px;
 }
+
