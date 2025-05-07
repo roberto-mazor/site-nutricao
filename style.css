@@ -100,7 +100,7 @@ header ul li a {
     color: white;
     /* Cor do texto */
     padding: 12px 24px;
-    /* Espaçamento interno ajustado */
+    /* Espaçamento interno */
     font-size: 18px;
     font-weight: 500;
     border: none;
@@ -180,5 +180,6 @@ header ul li a {
 
 .card{
     margin-bottom: 100px;
+    max-width: 300px;
 }
 
