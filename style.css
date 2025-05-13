@@ -166,7 +166,7 @@ header ul li a {
 
 }
 
-.carde-service {
+.card-service {
     padding-top: 100px;
     padding-bottom: 50px;
     
@@ -175,11 +175,22 @@ header ul li a {
 }
 
 .card {
-    margin-bottom: 100px;
-    max-width: 300px;
-}
-
-.card-coluna{
+    max-width: 500px;
     
 }
 
+.clcard-section{
+    margin-left: 8%;
+    margin-right: 8%;
+    justify-content: space-between;
+}
+
+.col{
+    margin-bottom: 7%;
+}
+
+.mb-3{
+    max-width: 25%;
+    margin: 0 8%;
+    
+}
