@@ -185,19 +185,8 @@ header ul li a {
     justify-content: space-between;
 }
 
-.col{
-    margin-bottom: 7;
+.row{
+    margin-top: 50px;
 }
 
-.mb-3{
-    max-width: 25%;
-    flex-direction: ;
-
-    
-    
-}.col{
-    margin-top: 10%;
-    display: flex;
-    align-items: center;
-}
 
