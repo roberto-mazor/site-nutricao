@@ -29,8 +29,6 @@ html {
 
 }
 
-
-
 header {
     font-size: 20px;
     width: 100%;
@@ -45,8 +43,6 @@ header.roll {
     background-color: #fff;
     padding: 20px 4%;
 }
-
-
 
 header.roll a {
     color: green;
@@ -75,8 +71,6 @@ header ul li a {
     text-decoration: none;
 }
 
-
-
 .fa-solid {
     color: #fff;
     font-size: 40px;
@@ -94,9 +88,7 @@ header ul li a {
 
 }
 
-
 .btn-agendar {
-
 
     background-color: #4CAF50;
     /* Cor do fundo */
@@ -169,24 +161,22 @@ header ul li a {
 .card-service {
     padding-top: 100px;
     padding-bottom: 50px;
-    
+
 
 
 }
 
 .card {
     max-width: 500px;
-    
+
 }
 
-.clcard-section{
+.clcard-section {
     margin-left: 8%;
     margin-right: 8%;
     justify-content: space-between;
 }
 
-.row{
+.row {
     margin-top: 50px;
 }
-
-
